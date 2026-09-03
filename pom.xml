@@ -33,9 +33,6 @@
                 <version>3.11.0</version>
                 <configuration>
                     <release>${maven.compiler.release}</release>
-                    <includes>
-                        <include>*.java</include>
-                    </includes>
                 </configuration>
             </plugin>
             <plugin>
