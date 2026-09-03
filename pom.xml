@@ -24,7 +24,7 @@
     </dependencies>
 
     <build>
-        <sourceDirectory>${project.basedir}</sourceDirectory>
+        <sourceDirectory>${project.basedir}/src/main/java</sourceDirectory>
         <testSourceDirectory>${project.basedir}/src/test/java</testSourceDirectory>
         <plugins>
             <plugin>
@@ -33,9 +33,6 @@
                 <version>3.11.0</version>
                 <configuration>
                     <release>${maven.compiler.release}</release>
-                    <includes>
-                        <include>*.java</include>
-                    </includes>
                 </configuration>
             </plugin>
             <plugin>
