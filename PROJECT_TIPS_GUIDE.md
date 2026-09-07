@@ -3,8 +3,9 @@
 এই guide টা Bangladesh context এ project demo, viva, আর daily usage আরও smooth করার জন্য।
 
 ## 1. Data Entry Tips
-- প্রতিটি entity এর `Entity ID` unique রাখো।
-- `Energy Usage`, `Resident Count`, `Pollution Level` valid numeric value দাও।
+- প্রতিটি entity এর `Entity ID` unique রাখেন।
+- `Energy Usage`, `Resident Count`, `Pollution Level` valid numeric value দেন।
+
 - Duplicate ID বা invalid input দিলে add/update fail করবে।
 
 ## 2. Dashboard Read Tips
@@ -55,15 +56,15 @@
 - `Enter` -> Submit form (default action)
 
 ## 7. Demo / Presentation Tips
-- আগে থেকে Dhaka/Chattogram style 2-3 Residential + 2-3 Industrial data add করে রাখো।
-- একবার filter করে শুধু `ALERT` show করো।
-- তারপর edit করে improvement দেখাও (live impact on dashboard)।
-- শেষে CSV/JSON export করে backup/reporting capability দেখাও।
+- আগে থেকে Dhaka/Chattogram style 2-3 Residential + 2-3 Industrial data add করে রাখেন।
+- একবার filter করে শুধু `ALERT` show করেন।
+- তারপর edit করে improvement দেখান (live impact on dashboard)।
+- শেষে CSV/JSON export করে backup/reporting capability দেখান।
 
 ## 8. Safety Tips
-- Import করার আগে JSON backup export করে রাখো।
+- Import করার আগে JSON backup export করে রাখেন।
 - Large data update এর আগে quick backup নেওয়া best practice।
-- Project folder এর `data` directory নিয়মিত check করো।
+- Project folder এর `data` directory নিয়মিত check করেন।
 
 ## 9. Suggested Next Small Upgrades
 - Chart-এ percentage labels দেখানো
